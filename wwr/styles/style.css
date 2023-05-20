@@ -1,9 +1,8 @@
-content{
-    max-width: 1600px;
-}
 #content{
+    max-width: 1600px;
     margin: 0 auto;
 }
+
 nav a{
     text-align: center;
     color: white;
@@ -22,6 +21,7 @@ main section{
 }
 #background {
     height: 725px;
+    background-color:#E76F51;
 }
 body{
     background-color:#F4A261;
@@ -43,9 +43,7 @@ nav a:hover{
     background-color:#F4A261;
     color:white;
 }
-#background{
-    background-color:#E76F51;
-}
+
 .msg{
     background-color:#2A9D8F;
 }
@@ -75,7 +73,7 @@ h4{
 }
 
 
-.logo{
+.logo, .icon{
     width: 80px;
 }
 #hero-img{
