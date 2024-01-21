@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantora+One&family=Nunito&display=swap');
+
+:root {
+    --primary-color: #F4A261  ;
+    --secondary-color: #2A9D8F ;
+    --accent1-color: #E76F51;
+    --accent2-color: #264653;
+    
+    --heading-font: "Cantora One";
+    --paragraph-font: Nunito, Helvetica, sans-serif;
+
+    
+    --nav-background-color: #E76F51;
+    --nav-link-color: white;
+    --nav-hover-link-color: white;
+    --nav-hover-background-color: #F4A261;
+    }
+
+    body {
+        font-family: var(--paragraph-font);
+        max-width: 960px;
+        padding: 20px;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        font-family: var(--heading-font);
+        color: var(--primary-color);
+    } 
+
+    header {
+        padding: 20px;
+        background-color: var(--accent1-color);
+    }
+
+    p {
+        padding: 25px;
+    }
+
+    nav {
+        background-color: var(--nav-background-color);
+        font-size: 1.2rem;
+        display: flex;
+    }
+
+    nav a {
+        display: block;
+        color: var(--nav-link-color);
+        text-decoration: none;
+        padding: 1rem;
+    }
+    nav a:link, nav:visited {
+        color: var(--nav-link-color);
+    }
+
+    nav a:hover {
+        color: var(--nav-link-color);
+        background-color: var(--nav-hover-background-color);
+    }
+   
+
+
