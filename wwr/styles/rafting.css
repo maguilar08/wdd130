@@ -22,10 +22,10 @@ h1 {
     font-family: "Cantora One", " Helvetica", "sans-serif";
     color: #F4A261 ;
     position: absolute;
-    top: 20px;
+    top: 70px;
     width: 100%;
     text-align: center;
-    background-color: #0230473d;
+    background-color: #02304772;
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 125px;
@@ -59,8 +59,6 @@ h2 {
 
 .copy {
     font-family: "Nunito", " Helvetica", "sans-serif";
-    max-width: 1366px;
-    padding: 20px;
     font-size: 30PX;
 }
 
