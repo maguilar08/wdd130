@@ -53,6 +53,17 @@ h2 {
     padding-bottom: 20px;
  
 }
+.sociallinks {
+    display: flex;
+    width: 100px;  
+    background-color: aquamarine;
+    justify-content: center;
+   
+    
+    
+   
+    
+}
 
 
 .copy {
@@ -61,11 +72,5 @@ h2 {
 }
 
 
-.sociallinks {
-    width: 100px;  
-    float: left;
-    
-    
-}
 
 
