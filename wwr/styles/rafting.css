@@ -306,6 +306,118 @@ button:hover {
     padding-left: 10px;
 }
  
+/* Trips */
+.boxtri {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    font-family: "Nunito", " Helvetica", "sans-serif";
+    font-size: 1.8rem;
+    
+}
+.t1 {
+    grid-column:1/2 ;
+    grid-row: 1/2;
+    width: 100%;
+    border-radius: 80px;
+    margin-top: 180px;
+    
+}
+.p1{
+    grid-column:2/3 ;
+    grid-row: 1/2;
+    
+    color: #264653;
+    border-radius: 20px;
+    margin-top: 100px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.t2 {
+    grid-column:2/3 ;
+    grid-row: 2/3;
+    width: 100%;
+    border-radius: 80px;
+}
+.p2{
+    grid-column:1/2 ;
+    grid-row: 2/3;
+    color: #264653;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.t3 {
+    grid-column:1/2 ;
+    grid-row: 3/4;
+    width: 100%;
+    border-radius: 80px;
+    margin-top: 120px;
+}
+.p3{
+    grid-column:2/3 ;
+    grid-row: 3/4;
+    color: #264653;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+/*Table*/
+table {
+    display: flex;
+    justify-content: center;
+}
+th {
+    background-color: #264653;
+    color: rgba(255, 255, 255, 0.752);
+    font-family: "Nunito", " Helvetica", "sans-serif";
+    font-size: 1.8rem;
+    
+    padding: 20px;   
+}
+td {
+    font-family: "Nunito", " Helvetica", "sans-serif";
+    font-size: 1.5rem;
+    text-align: center; 
+    color:#264653;
+}
+
+.contactt {
+
+    text-align: center;
+    margin-left: 500px ;
+    margin-right: 500px ;
+    margin-top: 90px ;
+    
+   
+
+}
+.contactty{
+    text-decoration: none;
+    color: white ;
+    font-size: 30px;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-family: Cantora One,  Helvetica, sans-serif;
+    background-color: #2A9D8F;
+
+}
+
+.contactty:hover{
+    background-color: #F4A261;
+    color: #fff;
+}
+
 
 
 
